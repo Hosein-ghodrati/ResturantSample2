@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victory Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+
+    <header>
+        <nav class="mobile-nav d-md-none">
+            <div class="flex-div-other">
+                <div>
+                    <img src="img/avada-landing-product-symbol.svg" alt="logo">
+                </div>
+                <div class="flex-ham-svg">
+                    <div class="ham-menu">
+                        <div class="animation animation1"></div>
+                        <div class="ham-menu-divs"></div>
+                        <div class="ham-menu-divs"></div>
+                        <div class="ham-menu-divs"></div>
+                        <div class="animation animation2"></div>
+                    </div>
+                    <div class="hover-svg">
+                        <div class="animation animation3"></div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <div class="animation animation4"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <ul class="list hidden d-md-none position-relative">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Dishes</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+
+        <nav class="second-nav d-none d-md-block ">
+            <div class="d-flex align-content-center justify-content-between container-xxl">
+                <div class="div-img-li-ham-flex">
+                    <div class="div-img-ullg">
+                        <div>
+                            <img src="img/avada-landing-product-logo.svg" alt="">
+                        </div>
+                        <div>
+                            <ul class="list3 d-none d-lg-flex">
+                                <div>
+                                    <div class="li-ani1"></div>
+                                    <li><a href="#">Overview</a></li>
+                                    <div class="li-ani2"></div>
+                                </div>
+                                <div>
+                                    <div class="li-ani1-2"></div>
+                                    <li><a href="#">Features</a></li>
+                                    <div class="li-ani2-2"></div>
+                                </div>
+                                <div>
+                                    <div class="li-ani1-3"></div>
+                                    <li><a href="#">Technology</a></li>
+                                    <div class="li-ani2-3"></div>
+                                </div>
+                                <div>
+                                    <div class="li-ani1-4"></div>
+                                    <li><a href="#">Design</a></li>
+                                    <div class="li-ani2-4"></div>
+                                </div>
+                                <div>
+                                    <div class="li-ani1-5"></div>
+                                    <li><a href="#">Accessories</a></li>
+                                    <div class="li-ani2-5"></div>
+                                </div>
+                                <div>
+                                    <div class="li-ani1-6"></div>
+                                    <li><a href="#">Videos</a></li>
+                                    <div class="li-ani2-6"></div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="ham-menu2 d-lg-none">
+                            <div class="ham-menu-divs2"></div>
+                            <div class="ham-menu-divs2"></div>
+                            <div class="ham-menu-divs2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-svg d-flex justify-content-end">
+                    <div>
+                        <button><a href="#">ORDER NOW</a></button>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <ul class="list2 hidden d-lg-none">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Dishes</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+
+    </header>
+
+
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text">
+                    <small>Here you can find delecious foods</small>
+                    <h2>ITALIAN Restaurant</h2>
+                    <p>Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis a nisl
+                        non, tempor interdum nisl.</p>
+                    <div class="primary-button">
+                        <a href="#" class="scroll-link">Order Right Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="img/cook_breakfast.png" alt="Breakfast">
+                            <h4>Breakfast</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="img/cook_lunch.png" alt="Lunch">
+                            <h4>Lunch</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="img/cook_dinner.png" alt="Dinner">
+                            <h4>Dinner</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="img/cook_dessert.png" alt="Desserts">
+                            <h4>Desserts</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="book-table">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="first">
+                        <h2>Book Your Table Now</h2>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-2 col-sm-12">
+                    <div class="left-image">
+                        <img src="img/book_left_image.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="right-info">
+                        <h4>Reservation</h4>
+                        <form id="form-submit" action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <span>
+                                        <select required name='day'>
+                                            <option value="">Select day</option>
+                                            <option value="Monday">Monday</option>
+                                            <option value="Tuesday">Tuesday</option>
+                                            <option value="Wednesday">Wednesday</option>
+                                            <option value="Thursday">Thursday</option>
+                                            <option value="Friday">Friday</option>
+                                            <option value="Saturday">Saturday</option>
+                                            <option value="Sunday">Sunday</option>
+                                        </select>
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>
+                                        <select required name='hour'>
+                                            <option value="">Select hour</option>
+                                            <option value="10-00">10:00</option>
+                                            <option value="12-00">12:00</option>
+                                            <option value="14-00">14:00</option>
+                                            <option value="16-00">16:00</option>
+                                            <option value="18-00">18:00</option>
+                                            <option value="20-00">20:00</option>
+                                            <option value="22-00">22:00</option>
+                                        </select>
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>
+                                        <input name="name" autocomplete="off" class="form-control" id="name"
+                                            spellcheck="false" placeholder="Full name" required="">
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>
+                                        <input name="phone" class="form-control" autocomplete="off" spellcheck="false"
+                                            id="phone" placeholder="Phone number" required="">
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>
+                                        <select required class="person" name='persons'>
+                                            <option value="">How many persons?</option>
+                                            <option value="1-Person">1 Person</option>
+                                            <option value="2-Persons">2 Persons</option>
+                                            <option value="3-Persons">3 Persons</option>
+                                            <option value="4-Persons">4 Persons</option>
+                                            <option value="5-Persons">5 Persons</option>
+                                            <option value="6-Persons">6 Persons</option>
+                                        </select>
+                                    </span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span>
+                                        <button type="submit" id="form-submit" class="btn book-table">Book
+                                            Table</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="get-app">
+        <div class="container">
+            <div class="row">
+                <div class="bg-full">
+                    <h2>Get application for your phone</h2>
+                </div>
+                <div class="primary-white-button">
+                    <a href="#">Download now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="featured-food">
+        <div class="container">
+            <div class="row">
+                <div class="h2-text">
+                    <h2>Weekly Featured Food</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Breakfast</h2>
+                        <img src="img/breakfast_item.jpg" alt="">
+                        <div class="price">$4.50</div>
+                        <div class="text-content">
+                            <h4>Kale Chips Art Party</h4>
+                            <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon
+                                street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Lunch</h2>
+                        <img src="img/lunch_item.jpg" alt="">
+                        <div class="price">$7.50</div>
+                        <div class="text-content">
+                            <h4>Taiyaki Gastro Tousled</h4>
+                            <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon
+                                street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="food-item">
+                        <h2>Dinner</h2>
+                        <img src="img/dinner_item.jpg" alt="">
+                        <div class="price">$12.50</div>
+                        <div class="text-content">
+                            <h4>Batch Squid Jean Shorts</h4>
+                            <p>Dreamcatcher squid ennui cliche chicharros nes echo small batch jean shorts hexagon
+                                street art knausgaard wolf...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="our-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content">
+                        <h2>Our blog post</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/blog_post_01.jpg" alt="">
+                        <div class="date">13 Oct 2024</div>
+                        <div class="right-content">
+                            <h4>Stumptown Tofu Schlitz</h4>
+                            <span>Branding / Admin</span>
+                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy
+                                drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <div class="text-button">
+                                <a href="#">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/blog_post_02.jpg" alt="">
+                        <div class="date">14 Oct 2024</div>
+                        <div class="right-content">
+                            <h4>Succulents Hashtag Folk</h4>
+                            <span>Branding / Admin</span>
+                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy
+                                drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <div class="text-button">
+                                <a href="#">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/blog_post_03.jpg" alt="">
+                        <div class="date">15 Oct 2024</div>
+                        <div class="right-content">
+                            <h4>Knaus Sriracha Pinterest</h4>
+                            <span>Dessert / Chef</span>
+                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy
+                                drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <div class="text-button">
+                                <a href="#">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post">
+                        <img src="img/blog_post_04.jpg" alt="">
+                        <div class="date">16 Oct 2024</div>
+                        <div class="right-content">
+                            <h4>Crucifix Selvage Coat</h4>
+                            <span>Plate / Chef</span>
+                            <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy
+                                drinking vinegar chambra meggings kale chips hexagon...</p>
+                            <div class="text-button">
+                                <a id="taga" href="#">Continue Reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sign-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="signuptext">
+                        <h2>Signup for our NEWS</h2>
+                    </div>
+                </div>
+            </div>
+            <form id="contact" action="" method="get">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-3">
+                        <span>
+                            <input name="email" type="text" autocomplete="off" spellcheck="false" class="form-control"
+                                id="email" placeholder="Enter your email here..." required="">
+                        </span>
+                    </div>
+                    <div class="col-md-2">
+                        <span>
+                            <button type="submit" id="form-submit" class="btn send-message ">Send Message</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <section class=".container">
+
+        <div class="part8-div-flex">
+
+            <div class="first-div-part8">
+
+                <img src="img/cook_02.jpg" alt="">
+                <small><a href="#">Design</a></small>
+                <h2><a href="#">Lorem ipsum dolor sit amet.
+                    </a></h2>
+                <p>Sit amet quam vehicula elementum sed sit dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Continue reading</a>
+
+            </div>
+
+            <div class="second-div-part8">
+
+                <img src="img/cook_01.jpg" alt="">
+                <small><a href="#">Lorem, ipsum dolor.</a></small>
+                <h2><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h2>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui vivamus.</p>
+                <a href="#">Continue reading</a>
+
+            </div>
+
+            <div class="third-div-part8">
+
+                <img src="img/cook_02.jpg" alt="">
+                <small><a href="#">Lorem, ipsum dolor.</a></small>
+                <h2><a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a></h2>
+                <p>Pulvinar pellentesque arcu mi sit nec eget velit lacus, tortor velit arcu orci.</p>
+                <a href="#">Continue reading</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class=".container">
+        <div class="footer-end">
+            <div class="footer-end-div">
+                <div class="btn-images">
+                    <div>
+                        <img src="img/avada-landing-product-logo.svg" alt="">
+                    </div>
+                    <div>
+                        <button>Got a project? Contact us!</button>
+                    </div>
+                </div>
+                <div>
+                    <h2>About Avada landing product
+                    </h2>
+                    <p>Diam integer turpis tristique integer tincidunt cursus dignissim. Euismod libero pellentesque et
+                        suspendisse posuere. Lorem quis nec nisl viverra ut velit imperdiet.
+                    </p>
+                </div>
+                <div>
+                    <button>Contact us!</button>
+                </div>
+            </div>
+            <p>
+                © 2012 - 2024 • <span>Avada</span> is a <span>Website Builder</span> for <span>WordPress</span> and
+                <span>eCommerce</span> • All Rights Reserved • Developed by <span>Hosein</span>
+            </p>
+        </div>
+
+    </footer>
+
+
+    <a class="scroll-arrow" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" class="size-6 chevronup">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+        </svg>
+    </a>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
